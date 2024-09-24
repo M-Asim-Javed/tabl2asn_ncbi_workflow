@@ -8,3 +8,7 @@ agat_convert_sp_gxf2gxf.pl --gff pb3A_gene.gtf -o pb3A_gene_agat.gff3
 
 
 ## To rearrange the gff3 file numerically
+
+## To run the table2asn
+
+/linux64.table2asn -M n -J -c w -euk -t edeLab.sbt -gaps-min 10 -l paired-ends -j "[organism=plasmodiophora brassicae] [isolate=pb3A]" -i ULAVAL_Pb3A_genomic.fsa -locus-tag-prefix PBTT -f pb3A_sorted_corrected_annotations.gff3 -o output_file.sqn -Z -V b
