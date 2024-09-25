@@ -6,8 +6,12 @@
 agat_convert_sp_gxf2gxf.pl --gff pb3A_gene.gtf -o pb3A_gene_agat.gff3
 
 
-
 ## To rearrange the gff3 file numerically
+
+
+## Convert the gff3 file into feature table (.tbl) format for NCBI annotation submission using GAG script (https://genomeannotation.github.io/GAG/)
+
+python2 gag.py --fasta GCA_036867785.1_ULAVAL_Pb3A_genomic.fsa --gff pb3A_sorted_corrected_annotations.gff3 --out gag_output
 
 ## To run the table2asn
 
