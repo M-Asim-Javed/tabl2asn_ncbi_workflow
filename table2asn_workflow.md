@@ -15,4 +15,4 @@ python2 gag.py --fasta GCA_036867785.1_ULAVAL_Pb3A_genomic.fsa --gff pb3A_sorted
 
 ## To run the table2asn
 
-/linux64.table2asn -M n -J -c w -euk -t edeLab.sbt -gaps-min 10 -l paired-ends -j "[organism=plasmodiophora brassicae] [isolate=pb3A]" -i ULAVAL_Pb3A_genomic.fsa -locus-tag-prefix PBTT -f pb3A_sorted_corrected_annotations.gff3 -o output_file.sqn -Z -V b
+./linux64.table2asn -M n -J -c w -euk -t edeLab.sbt -gaps-min 10 -l paired-ends -j "[organism=plasmodiophora brassicae] [isolate=pb3A]" -i ULAVAL_Pb3A_genomic.fsa -locus-tag-prefix PBTT -f pb3A_sorted_corrected_annotations.gff3 -o output_file.sqn -Z -V b
