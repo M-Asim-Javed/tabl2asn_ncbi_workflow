@@ -1,6 +1,6 @@
 # Blast the final protein sequencea agaisnst the UniProt/TrEMBL database and extracted the query and protein names and query match
 
-#python script to manage the blast results in txt file and remove irrelavant information of mapping
+## python script to manage the blast results in txt file and remove irrelavant information of mapping
 ```python
 def extract_protein_info(input_file, output_file):
     """
@@ -38,7 +38,7 @@ extract_protein_info(input_file, output_file)
 
 print(f"Filtered protein information saved to {output_file}")
 ```
-#python script to extract only the query, protein names and matching accesion from the arranged txt file.
+## python script to extract only the query, protein names and matching accesion from the arranged txt file.
 
 ```python
 def extract_protein_info(input_file, output_file):
