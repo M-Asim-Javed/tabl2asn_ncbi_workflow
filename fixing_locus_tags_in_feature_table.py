@@ -52,3 +52,6 @@ output_tbl_file = 'corrected_locus_tag.tbl'  # Replace with the path to the clea
 # Run the script to clean the .tbl file
 process_tbl_file(input_tbl_file, output_tbl_file)
 ```
+
+
+
