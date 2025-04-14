@@ -1,4 +1,5 @@
-# 🧬 End-to-End Workflow to Preprocess and Submit Annotation Files to NCBI Using table2asn
+# 🧬 End-to-End Workflow to Preprocess and Submit Annotation Files to NCBI Using [table2asn](https://www.ncbi.nlm.nih.gov/genbank/table2asn/)
+
 
 This repository contains a complete workflow and set of tools—including Python scripts—for preprocessing genome annotation files to ensure compatibility with NCBI’s submission requirements via table2asn. The workflow includes:
 
