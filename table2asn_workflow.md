@@ -37,12 +37,11 @@ python2 gag.py --fasta GCA_036867785.1_ULAVAL_Pb3A_genomic.fsa --gff pb3A_sorted
 ## installations
 
 ```bash
-
+wget ftp.ncbi.nlm.nih.gov/asn1-converters/by_program/table2asn/linux64.table2asn.gz
+gunzip
+table2asn --help
 
 ```
-
-
-
 
 ## To run the table2asn
 
