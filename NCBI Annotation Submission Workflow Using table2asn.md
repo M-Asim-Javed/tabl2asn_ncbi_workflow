@@ -51,7 +51,7 @@ This will generate the `.tbl` file required by `table2asn`.
 
 ---
 
-## Step 4: Install `table2asn`
+## Step 4: Install [table2asn](https://www.ncbi.nlm.nih.gov/genbank/table2asn/)
 
 ```bash
 wget ftp://ftp.ncbi.nlm.nih.gov/asn1-converters/by_program/table2asn/linux64.table2asn.gz
@@ -86,9 +86,8 @@ Use the command below to generate a Sequin (`.sqn`) file for submission:
 # To get an .sbt above (submission template) file for use with table2asn, follow these steps:
 
 ---
-Submission Portal
 
-Go to the NCBI Submission Portal.
+Go to the [NCBI Submission Portal](https://submit.ncbi.nlm.nih.gov/subs/genome/).
 
 Start a new Genome Submission.
 
