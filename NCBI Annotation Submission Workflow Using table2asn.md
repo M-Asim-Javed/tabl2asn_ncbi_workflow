@@ -97,6 +97,7 @@ Fill out the requested metadata (organism name, isolate, sequencing platform, et
 Once you complete the metadata form, download the .sbt template file generated for your submission.
 
 This will contain standardized fields like submitter, contact info, source modifiers, and qualifiers.
+
 ---
 # Explanation of Common table2asn
 
