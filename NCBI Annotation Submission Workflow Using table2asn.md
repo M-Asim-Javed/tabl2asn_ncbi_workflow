@@ -1,3 +1,4 @@
+
 # NCBI Annotation Submission Workflow Using `table2asn`
 
 This guide provides a streamlined workflow to prepare and submit genome annotations to NCBI using the `table2asn` utility. It includes steps to convert annotation formats, validate and sort features, and generate NCBI-compliant `.tbl` and `.sqn` files.
