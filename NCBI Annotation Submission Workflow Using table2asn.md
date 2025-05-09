@@ -83,9 +83,11 @@ Use the command below to generate a Sequin (`.sqn`) file for submission:
   -Z \
   -V b
 ```
-To get an .sbt above (submission template) file for use with table2asn, follow these steps:
+# To get an .sbt above (submission template) file for use with table2asn, follow these steps:
 
+---
 Submission Portal
+
 Go to the NCBI Submission Portal.
 
 Start a new Genome Submission.
@@ -95,8 +97,8 @@ Fill out the requested metadata (organism name, isolate, sequencing platform, et
 Once you complete the metadata form, download the .sbt template file generated for your submission.
 
 This will contain standardized fields like submitter, contact info, source modifiers, and qualifiers.
-
-Explanation of Common table2asn
+---
+# Explanation of Common table2asn
 
 ```bash
 -M n              # Do not modify the input files
