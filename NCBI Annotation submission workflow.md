@@ -125,4 +125,4 @@ This will contain standardized fields like submitter, contact info, source modif
 * Make sure the `.fsa`, `.tbl`, and `.sbt` files are consistent.
 * Check the `.sqn` file using `tbl2asn` logs for validation errors or warnings.
 
-For questions or issues, refer to the [NCBI Submission Guide](https://www.ncbi.nlm.nih.gov/genbank/genomesubmit/).
+For questions, more infomrations or issues, refer to the [NCBI Submission Guide](https://www.ncbi.nlm.nih.gov/genbank/genomesubmit/).
