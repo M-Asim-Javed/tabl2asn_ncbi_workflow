@@ -99,7 +99,20 @@ This will contain standardized fields like submitter, contact info, source modif
 Explanation of Common table2asn
 
 ```bash
-
+-M n              # Do not modify the input files
+-J                # Exclude gene features if no corresponding mRNA or CDS present
+-c w              # Compliance level: w allows warnings, but generates output
+-euk              # Indicates the genome is eukaryotic
+-t edeLab.sbt     # Submission template (.sbt) file path
+-gaps-min 10      # Minimum gap length before representing gaps with gap features
+-l paired-ends    # Sequencing technology used
+-j                # Source modifiers in square brackets (e.g., organism name, isolate)
+-i                # Input FASTA file
+-locus-tag-prefix # Prefix to prepend to locus tags
+-f                # Feature table file (.tbl)
+-o                # Output .sqn file
+-Z                # Suppress automatic editing of some features
+-V b              # Validation level: b for basic (output .val file with errors/warnings)
 
 ```
 ---
