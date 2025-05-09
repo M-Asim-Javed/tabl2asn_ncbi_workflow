@@ -91,6 +91,7 @@ Once you complete the metadata form, download the .sbt template file generated f
 
 This will contain standardized fields like submitter, contact info, source modifiers, and qualifiers.
 
+Explanation of Common table2asn FlagsOptionDescription-M nDo not modify the input files-JExclude gene features if no corresponding mRNA or CDS present-c wCompliance level: w allows warnings, but generates output-eukIndicates the genome is eukaryotic-t edeLab.sbtSubmission template (.sbt) file path-gaps-min 10Minimum gap length before representing gaps with gap features-l paired-endsSequencing technology used-jSource modifiers in square brackets (e.g., organism name, isolate)-iInput FASTA file-locus-tag-prefixPrefix to prepend to locus tags-fFeature table file (.tbl)-oOutput .sqn file-ZSuppress automatic editing of some features-V bValidation level: b for basic (output .val file with errors/warnings)
 ---
 
 ## Final Notes
