@@ -26,7 +26,7 @@ If required, sort the GFF3 file numerically by gene coordinates to maintain stru
 
 ---
 # Important Note!
-You can use either a GFF3 file or a feature table (.tbl) as input for table2asn, depending on your choice and can skip the .tbl options.
+## You can use either a GFF3 file or a feature table (.tbl) as input for table2asn, depending on your choice and can skip the .tbl options.
 ---
 ## Step 3: Generate a Feature Table (`.tbl`) Using GAG
 
