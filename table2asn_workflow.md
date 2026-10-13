@@ -20,11 +20,7 @@ agat_convert_sp_gxf2gxf.pl --gff pb3A_gene.gtf -o pb3A_gene_agat.gff3
 
 ## installations
 
-```bash
-
-
-```
-## Runing the gag to generate the table2asn
+### Runing the gag to generate the table2asn
 
 ```bash
 
